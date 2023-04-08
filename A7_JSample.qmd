@@ -1,0 +1,130 @@
+---
+title: "PubH 7462 Assignment 7"
+author: "Jeannette Sample"
+format: html
+editor: visual
+---
+
+## Make an ICU status report from the Sepsis dataset.
+
+```{r}
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(data.table) ## For the fread function
+library(lubridate)
+
+library(tictoc) # For timing
+library(googledrive)
+library(gt)
+
+source("sepsis_monitor_functions.R")
+```
+
+```{r}
+#| echo: false
+#| warning: false
+
+drive_deauth()
+file_link <- "https://drive.google.com/file/d/1pyigdJ2WHT0yVto0CdX0p8R2lZOwG0Tq"
+#https://drive.google.com/file/d/1pyigdJ2WHT0yVto0CdX0p8R2lZOwG0Tq/view?usp=share_link
+
+## All data up until now
+new_data <- updateData(file_link)
+
+## Include only most recent data
+most_recent_data <- new_data %>%
+  group_by(PatientID) %>%
+  filter(obsTime == max(obsTime))
+```
+
+```{r}
+#| echo: false
+todayTime <- format(Sys.time(),'%A, %B %d, %Y at %H:%M')
+```
+
+This report was generated on `r todayTime`.
+
+```{r}
+#| echo: false
+#df <- makeSepsisDataset()
+df <- most_recent_data
+```
+
+A table listing the patients who currently have sepsis (if any), along with their most recent heart rate, temperature, and respiratory rate
+
+```{r}
+#| echo: false
+(tb1 <- most_recent_data %>%
+  filter(SepsisLabel == 1) %>%
+  group_by(PatientID) %>%
+  fill(HR, Temp, Resp) %>%
+  slice_tail() %>%
+  filter(SepsisLabel == 1) %>%
+  ungroup() %>%
+  select(PatientID, HR, Temp, Resp) %>%
+  gt(rowname_col = "PatientID") %>%
+  tab_stubhead(label = "Patient") %>%
+  cols_label(HR = "Heart Rate",
+             Temp = "Temperature",
+             Resp = "Respiratory Rate") %>%
+  tab_header(title = "Most recent vitals of patients who currently have sepsis")
+)
+```
+
+Plots for all patients who have sepsis (if any) that show the complete history of their heart rate, temperature, and respiratory rate during their time in the ICU.
+
+```{r}
+#| echo: false
+#| warning: false
+
+df1 <- most_recent_data %>%
+  filter(SepsisLabel == 1) %>%
+  group_by(PatientID) %>%
+  slice_tail()
+
+#subset full dataset
+df2 <- most_recent_data %>%
+  filter(PatientID %in% df1$PatientID)
+
+p <- df2 %>%
+    #group_by(PatientID) %>%
+    ggplot(aes(x = ICULOS, group = PatientID)) +
+    geom_line(aes(y = HR, color = "Heart Rate")) +
+    geom_line(aes(y = Temp, color = "Temperature")) + 
+    geom_line(aes(y = Resp, color = "Respiratory Rate")) +
+    facet_wrap(~PatientID) +
+    labs(x = "Hours in ICU",
+         y = "Vitals",
+         title = "Complete history of vital signs for patients with sepsis",
+         color = "Vitals") 
+
+p + theme(legend.position="bottom")
+```
+
+A table showing the change in heart rate, temperature, and respiratory rate between the last two measurements for all patients
+
+```{r}
+#| echo: false
+(tb2 <- most_recent_data %>%
+  arrange(PatientID, ICULOS) %>%
+  group_by(PatientID) %>%
+  fill(HR, Temp, Resp) %>%
+  slice_tail(n=2) %>%
+# computing difference of each group
+  mutate(HR_diff = HR-lag(HR,n=1),
+         Temp_diff=Temp-lag(Temp,n=1),
+         Resp_diff=Resp-lag(Resp,n=1)) %>%
+  slice_tail() %>% 
+  select(PatientID, HR_diff, Temp_diff, Resp_diff)  %>%
+  ungroup() %>%
+  gt(rowname_col = "PatientID") %>%
+  tab_stubhead(label = "Patient") %>%
+  cols_label(HR_diff = "Heart Rate",
+             Temp_diff = "Temperature",
+             Resp_diff = "Respiratory Rate") %>%
+  tab_spanner(label = "Change in Vitals", columns = c(HR_diff, Temp_diff, Resp_diff)) %>%
+  tab_header(title = "Change in vitals between the last two measurements for all patients")
+)
+```
