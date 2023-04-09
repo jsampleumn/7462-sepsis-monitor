@@ -1,19 +1,19 @@
-Jeannette Sample PubH 7462 Assignment 7
+PubH 7462 Assignment 7
 ================
 
 ## Make an ICU status report from the Sepsis dataset.
 
-This report was generated on Saturday, April 08, 2023 at 19:55.
+This report was generated on Saturday, April 08, 2023 at 20:30.
 
 A table listing the patients who currently have sepsis (if any), along
 with their most recent heart rate, temperature, and respiratory rate
 
-<div id="oktjnjyrmr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="zhnpcrwrsp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#oktjnjyrmr .gt_table {
+#zhnpcrwrsp .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -38,7 +38,7 @@ with their most recent heart rate, temperature, and respiratory rate
   border-left-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_heading {
+#zhnpcrwrsp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -50,12 +50,12 @@ with their most recent heart rate, temperature, and respiratory rate
   border-right-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_caption {
+#zhnpcrwrsp .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#oktjnjyrmr .gt_title {
+#zhnpcrwrsp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -67,7 +67,7 @@ with their most recent heart rate, temperature, and respiratory rate
   border-bottom-width: 0;
 }
 
-#oktjnjyrmr .gt_subtitle {
+#zhnpcrwrsp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -79,13 +79,13 @@ with their most recent heart rate, temperature, and respiratory rate
   border-top-width: 0;
 }
 
-#oktjnjyrmr .gt_bottom_border {
+#zhnpcrwrsp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_col_headings {
+#zhnpcrwrsp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -100,7 +100,7 @@ with their most recent heart rate, temperature, and respiratory rate
   border-right-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_col_heading {
+#zhnpcrwrsp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -120,7 +120,7 @@ with their most recent heart rate, temperature, and respiratory rate
   overflow-x: hidden;
 }
 
-#oktjnjyrmr .gt_column_spanner_outer {
+#zhnpcrwrsp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -132,15 +132,15 @@ with their most recent heart rate, temperature, and respiratory rate
   padding-right: 4px;
 }
 
-#oktjnjyrmr .gt_column_spanner_outer:first-child {
+#zhnpcrwrsp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#oktjnjyrmr .gt_column_spanner_outer:last-child {
+#zhnpcrwrsp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#oktjnjyrmr .gt_column_spanner {
+#zhnpcrwrsp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -152,7 +152,7 @@ with their most recent heart rate, temperature, and respiratory rate
   width: 100%;
 }
 
-#oktjnjyrmr .gt_group_heading {
+#zhnpcrwrsp .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -178,7 +178,7 @@ with their most recent heart rate, temperature, and respiratory rate
   text-align: left;
 }
 
-#oktjnjyrmr .gt_empty_group_heading {
+#zhnpcrwrsp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -193,15 +193,15 @@ with their most recent heart rate, temperature, and respiratory rate
   vertical-align: middle;
 }
 
-#oktjnjyrmr .gt_from_md > :first-child {
+#zhnpcrwrsp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#oktjnjyrmr .gt_from_md > :last-child {
+#zhnpcrwrsp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#oktjnjyrmr .gt_row {
+#zhnpcrwrsp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -220,7 +220,7 @@ with their most recent heart rate, temperature, and respiratory rate
   overflow-x: hidden;
 }
 
-#oktjnjyrmr .gt_stub {
+#zhnpcrwrsp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -233,7 +233,7 @@ with their most recent heart rate, temperature, and respiratory rate
   padding-right: 5px;
 }
 
-#oktjnjyrmr .gt_stub_row_group {
+#zhnpcrwrsp .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -247,11 +247,11 @@ with their most recent heart rate, temperature, and respiratory rate
   vertical-align: top;
 }
 
-#oktjnjyrmr .gt_row_group_first td {
+#zhnpcrwrsp .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#oktjnjyrmr .gt_summary_row {
+#zhnpcrwrsp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -261,16 +261,16 @@ with their most recent heart rate, temperature, and respiratory rate
   padding-right: 5px;
 }
 
-#oktjnjyrmr .gt_first_summary_row {
+#zhnpcrwrsp .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_first_summary_row.thick {
+#zhnpcrwrsp .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#oktjnjyrmr .gt_last_summary_row {
+#zhnpcrwrsp .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -280,7 +280,7 @@ with their most recent heart rate, temperature, and respiratory rate
   border-bottom-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_grand_summary_row {
+#zhnpcrwrsp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -290,7 +290,7 @@ with their most recent heart rate, temperature, and respiratory rate
   padding-right: 5px;
 }
 
-#oktjnjyrmr .gt_first_grand_summary_row {
+#zhnpcrwrsp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -300,11 +300,11 @@ with their most recent heart rate, temperature, and respiratory rate
   border-top-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_striped {
+#zhnpcrwrsp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#oktjnjyrmr .gt_table_body {
+#zhnpcrwrsp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -313,7 +313,7 @@ with their most recent heart rate, temperature, and respiratory rate
   border-bottom-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_footnotes {
+#zhnpcrwrsp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -327,7 +327,7 @@ with their most recent heart rate, temperature, and respiratory rate
   border-right-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_footnote {
+#zhnpcrwrsp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -336,7 +336,7 @@ with their most recent heart rate, temperature, and respiratory rate
   padding-right: 5px;
 }
 
-#oktjnjyrmr .gt_sourcenotes {
+#zhnpcrwrsp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -350,7 +350,7 @@ with their most recent heart rate, temperature, and respiratory rate
   border-right-color: #D3D3D3;
 }
 
-#oktjnjyrmr .gt_sourcenote {
+#zhnpcrwrsp .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -358,64 +358,64 @@ with their most recent heart rate, temperature, and respiratory rate
   padding-right: 5px;
 }
 
-#oktjnjyrmr .gt_left {
+#zhnpcrwrsp .gt_left {
   text-align: left;
 }
 
-#oktjnjyrmr .gt_center {
+#zhnpcrwrsp .gt_center {
   text-align: center;
 }
 
-#oktjnjyrmr .gt_right {
+#zhnpcrwrsp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#oktjnjyrmr .gt_font_normal {
+#zhnpcrwrsp .gt_font_normal {
   font-weight: normal;
 }
 
-#oktjnjyrmr .gt_font_bold {
+#zhnpcrwrsp .gt_font_bold {
   font-weight: bold;
 }
 
-#oktjnjyrmr .gt_font_italic {
+#zhnpcrwrsp .gt_font_italic {
   font-style: italic;
 }
 
-#oktjnjyrmr .gt_super {
+#zhnpcrwrsp .gt_super {
   font-size: 65%;
 }
 
-#oktjnjyrmr .gt_footnote_marks {
+#zhnpcrwrsp .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#oktjnjyrmr .gt_asterisk {
+#zhnpcrwrsp .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#oktjnjyrmr .gt_indent_1 {
+#zhnpcrwrsp .gt_indent_1 {
   text-indent: 5px;
 }
 
-#oktjnjyrmr .gt_indent_2 {
+#zhnpcrwrsp .gt_indent_2 {
   text-indent: 10px;
 }
 
-#oktjnjyrmr .gt_indent_3 {
+#zhnpcrwrsp .gt_indent_3 {
   text-indent: 15px;
 }
 
-#oktjnjyrmr .gt_indent_4 {
+#zhnpcrwrsp .gt_indent_4 {
   text-indent: 20px;
 }
 
-#oktjnjyrmr .gt_indent_5 {
+#zhnpcrwrsp .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -449,17 +449,17 @@ Plots for all patients who have sepsis (if any) that show the complete
 history of their heart rate, temperature, and respiratory rate during
 their time in the ICU.
 
-![](README_files/figure-commonmark/unnamed-chunk-6-1.png)
+![](README_files/figure-commonmark/unnamed-chunk-4-1.png)
 
 A table showing the change in heart rate, temperature, and respiratory
 rate between the last two measurements for all patients
 
-<div id="wuslmoougw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="hikalrqwod" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#wuslmoougw .gt_table {
+#hikalrqwod .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -484,7 +484,7 @@ rate between the last two measurements for all patients
   border-left-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_heading {
+#hikalrqwod .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -496,12 +496,12 @@ rate between the last two measurements for all patients
   border-right-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_caption {
+#hikalrqwod .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#wuslmoougw .gt_title {
+#hikalrqwod .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -513,7 +513,7 @@ rate between the last two measurements for all patients
   border-bottom-width: 0;
 }
 
-#wuslmoougw .gt_subtitle {
+#hikalrqwod .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -525,13 +525,13 @@ rate between the last two measurements for all patients
   border-top-width: 0;
 }
 
-#wuslmoougw .gt_bottom_border {
+#hikalrqwod .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_col_headings {
+#hikalrqwod .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -546,7 +546,7 @@ rate between the last two measurements for all patients
   border-right-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_col_heading {
+#hikalrqwod .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -566,7 +566,7 @@ rate between the last two measurements for all patients
   overflow-x: hidden;
 }
 
-#wuslmoougw .gt_column_spanner_outer {
+#hikalrqwod .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -578,15 +578,15 @@ rate between the last two measurements for all patients
   padding-right: 4px;
 }
 
-#wuslmoougw .gt_column_spanner_outer:first-child {
+#hikalrqwod .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wuslmoougw .gt_column_spanner_outer:last-child {
+#hikalrqwod .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wuslmoougw .gt_column_spanner {
+#hikalrqwod .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -598,7 +598,7 @@ rate between the last two measurements for all patients
   width: 100%;
 }
 
-#wuslmoougw .gt_group_heading {
+#hikalrqwod .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -624,7 +624,7 @@ rate between the last two measurements for all patients
   text-align: left;
 }
 
-#wuslmoougw .gt_empty_group_heading {
+#hikalrqwod .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -639,15 +639,15 @@ rate between the last two measurements for all patients
   vertical-align: middle;
 }
 
-#wuslmoougw .gt_from_md > :first-child {
+#hikalrqwod .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wuslmoougw .gt_from_md > :last-child {
+#hikalrqwod .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wuslmoougw .gt_row {
+#hikalrqwod .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -666,7 +666,7 @@ rate between the last two measurements for all patients
   overflow-x: hidden;
 }
 
-#wuslmoougw .gt_stub {
+#hikalrqwod .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -679,7 +679,7 @@ rate between the last two measurements for all patients
   padding-right: 5px;
 }
 
-#wuslmoougw .gt_stub_row_group {
+#hikalrqwod .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -693,11 +693,11 @@ rate between the last two measurements for all patients
   vertical-align: top;
 }
 
-#wuslmoougw .gt_row_group_first td {
+#hikalrqwod .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#wuslmoougw .gt_summary_row {
+#hikalrqwod .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -707,16 +707,16 @@ rate between the last two measurements for all patients
   padding-right: 5px;
 }
 
-#wuslmoougw .gt_first_summary_row {
+#hikalrqwod .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_first_summary_row.thick {
+#hikalrqwod .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#wuslmoougw .gt_last_summary_row {
+#hikalrqwod .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -726,7 +726,7 @@ rate between the last two measurements for all patients
   border-bottom-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_grand_summary_row {
+#hikalrqwod .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -736,7 +736,7 @@ rate between the last two measurements for all patients
   padding-right: 5px;
 }
 
-#wuslmoougw .gt_first_grand_summary_row {
+#hikalrqwod .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -746,11 +746,11 @@ rate between the last two measurements for all patients
   border-top-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_striped {
+#hikalrqwod .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wuslmoougw .gt_table_body {
+#hikalrqwod .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -759,7 +759,7 @@ rate between the last two measurements for all patients
   border-bottom-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_footnotes {
+#hikalrqwod .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -773,7 +773,7 @@ rate between the last two measurements for all patients
   border-right-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_footnote {
+#hikalrqwod .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -782,7 +782,7 @@ rate between the last two measurements for all patients
   padding-right: 5px;
 }
 
-#wuslmoougw .gt_sourcenotes {
+#hikalrqwod .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -796,7 +796,7 @@ rate between the last two measurements for all patients
   border-right-color: #D3D3D3;
 }
 
-#wuslmoougw .gt_sourcenote {
+#hikalrqwod .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -804,64 +804,64 @@ rate between the last two measurements for all patients
   padding-right: 5px;
 }
 
-#wuslmoougw .gt_left {
+#hikalrqwod .gt_left {
   text-align: left;
 }
 
-#wuslmoougw .gt_center {
+#hikalrqwod .gt_center {
   text-align: center;
 }
 
-#wuslmoougw .gt_right {
+#hikalrqwod .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wuslmoougw .gt_font_normal {
+#hikalrqwod .gt_font_normal {
   font-weight: normal;
 }
 
-#wuslmoougw .gt_font_bold {
+#hikalrqwod .gt_font_bold {
   font-weight: bold;
 }
 
-#wuslmoougw .gt_font_italic {
+#hikalrqwod .gt_font_italic {
   font-style: italic;
 }
 
-#wuslmoougw .gt_super {
+#hikalrqwod .gt_super {
   font-size: 65%;
 }
 
-#wuslmoougw .gt_footnote_marks {
+#hikalrqwod .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#wuslmoougw .gt_asterisk {
+#hikalrqwod .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#wuslmoougw .gt_indent_1 {
+#hikalrqwod .gt_indent_1 {
   text-indent: 5px;
 }
 
-#wuslmoougw .gt_indent_2 {
+#hikalrqwod .gt_indent_2 {
   text-indent: 10px;
 }
 
-#wuslmoougw .gt_indent_3 {
+#hikalrqwod .gt_indent_3 {
   text-indent: 15px;
 }
 
-#wuslmoougw .gt_indent_4 {
+#hikalrqwod .gt_indent_4 {
   text-indent: 20px;
 }
 
-#wuslmoougw .gt_indent_5 {
+#hikalrqwod .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
